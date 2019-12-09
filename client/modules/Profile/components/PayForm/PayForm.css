@@ -1,0 +1,42 @@
+
+.flex-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payform {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+/* .infos {
+} */
+
+.issuer {
+  margin: 8px;
+}
+
+.digit {
+  margin: 8px;
+}
+
+/* .actions {
+
+} */
+
+.action {
+  color: #00a697;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.selected {
+  color: #00776d;
+  padding: 8px;
+}

@@ -1,0 +1,1 @@
+{"id":"CCFK3REM","name":"development","client_id":"b3sgEEwX44C680i6JeW2Ob7vrHsO","client_secret":"de04c0bb8897fb4b1eaaf8c55c51fc0fb046b35cc1c94eee3db632d4f5a44f06","application_type":"web","redirect_uris":["http://localhost:8000/api/redirect"],"cors_uris":["http://37.120.154.98:8000"]}

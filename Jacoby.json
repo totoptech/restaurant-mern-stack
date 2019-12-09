@@ -1,0 +1,1 @@
+{"id":"CCFKY7SR","name":"Jacoby","client_id":"6D2btYpEd1dP3WZGaOqK3I8vRHQc","client_secret":"c415e925af7b9f07dcb82be362d6d6730b791ba2395d2f26a649e39fb6e53998","application_type":"web","redirect_uris":["http://localhost:8000/api/user/autherized"],"cors_uris":["http://localhost:8000"]}

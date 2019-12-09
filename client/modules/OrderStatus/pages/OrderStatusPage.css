@@ -1,0 +1,115 @@
+.opacity-container{
+    /* height: 500px;
+    margin-top: -300px;
+    opacity: 0.7;
+    z-index: 100;
+    background: linear-gradient(0deg, #FFFFFF 70.83%, rgba(255, 255, 255, 0) 100%); */
+    margin-bottom: 200px;
+}
+.order-container{
+    margin: 0 auto!important;
+    width: 100%;
+    padding: 22px !important;
+    max-width: 1120px;
+}
+.order-layout{
+    margin-top: 9%;
+}
+.order-layout p:first-child{
+    font-size: 32px;
+}
+.order-layout p:nth-child(2){
+    font-size: 14px;
+    opacity: 0.7;
+}
+.order-layout svg{
+    min-width: 180px;
+}
+.message-layout{
+    margin-top: 80px;
+}
+.way-layout{
+    display: flex;
+}
+.way-layout svg{
+    min-width: 180px;
+}
+.message-layout svg{
+    cursor: pointer;
+    margin-left: auto;
+}
+.message-layout p:nth-child(2){
+    margin-left: 20px;
+    opacity: 0.45;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.btn-detail{
+    background: #c4c4c473;
+    border-radius: 8px;
+    height: 64px;
+    width: 100%;
+    display: none;
+    color: #202124;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 22px;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .message-layout svg{
+        margin-left: 0px;
+    }
+    .message-layout{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .message-layout svg{
+        position: absolute;
+        right: 0px;
+    }
+    .message-layout p:nth-child(2){
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+    .btn-detail{
+        display: block;
+        margin-top: 125px;
+    }
+}
+@media (max-width: 670px){
+    .way-layout{
+        display: block!important;
+    }
+    .opacity-container{
+        margin-top: -90px;
+        margin-bottom: 0px;
+    }
+    .way-layout svg{
+        display: flex;
+        margin: auto;
+    }
+    .order-layout{
+        text-align: center;
+        margin-top: 0px;
+    }
+    .message-layout{
+        margin-top: 20px;
+    }
+}
+
+.order {
+    position: absolute;
+    right: calc((100% - 1100px) / 2);
+    top: 30px;
+  }
+@media (max-width: 1144px) {
+    .order{
+        right: 24px;
+    }
+}
+@media (max-width: 1104px) {
+    .order {
+      margin-top: 0px;
+    }
+}

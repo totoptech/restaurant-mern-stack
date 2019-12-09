@@ -1,0 +1,120 @@
+@media screen and (max-width: 800px) {
+  .menu{
+    display: none;
+  }
+  .card{
+    width: calc(100% - 48px)!important;
+  }
+  .container{
+    display: block!important;
+  }
+  .mobile-menu{
+    margin: 24px;
+    display: block!important;
+  }
+  .RLink{
+    width: 100% !important;
+    border-radius: 8px!important;
+  }
+  .drop-click{
+    background: #8f8c8c3b;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 19px;
+    height: 48px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .drop-click .icon {
+    margin: 12px;
+  }
+  .down-icon{
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  .drop-border{
+    border: solid 2px #eee;
+    border-radius: 8px;
+  }
+  .render-drop{
+    display: flex;
+    align-items: center;
+  }
+}
+.mobile-menu{
+  display: none;
+}
+.profile-container{
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: calc(100vh - 191px);
+  background: #FCFCFC;
+}
+.container {
+  max-width: 1120px;
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+.card {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 16px!important;
+  width: 662px;
+  height: 596px;
+  padding: 40px 40px;
+  z-index: 1;
+  margin: 24px;
+  margin-top: 8px;
+  box-shadow: none!important;
+}
+
+.menu {
+  margin-right: 24px;
+  margin-left: 16px;
+}
+.RLink {
+  font-size: 16px;
+  line-height: 19px;
+  width: 226px;
+  height: 48px;
+  border-radius: 120px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.RLink {
+  color: #202124;
+}
+
+.RLink .icon {
+  margin: 12px;
+}
+
+.RLink.activeLink {
+  background-color: #77dbd43b;
+  color: #00a697;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.menu ul > li {
+    margin: 8px;
+}

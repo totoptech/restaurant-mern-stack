@@ -1,0 +1,31 @@
+@media screen and (max-width: 580px) {
+  .PayModal {
+    width: calc(100% - 100px) !important;
+  }
+}
+
+.PayModal {
+  min-width: 300px;
+  max-width: 500px;
+  margin: 16px;
+  width: 100%;
+  background: #ffffff;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translate(-50%, 0) !important;
+}
+.err_card{
+  font-size: 14px;
+  color: #f00;
+  margin-top: -10px;
+}
+.captain {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}

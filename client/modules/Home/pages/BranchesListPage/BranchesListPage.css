@@ -1,0 +1,48 @@
+.containerHead {
+  background-image: url(../../../../asset/bg.jpg), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 356px;
+  /* height: 30vw; */
+}
+
+.containerBody {
+  position: relative;
+  margin-top: -356px;
+  min-height: calc(100vh - 467px);
+}
+
+.containerBody .subheader {
+  margin-top: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerBody .subheader .logo {
+  /* background-image: url(../../../../asset/logo_bakery.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.containerBody .subheader .logoHeader {
+  font-size: 32px;
+  line-height: 38px;
+  margin: 20px 0px;
+  color: #ffffff;
+}
+
+.containerBody .subbody {
+  margin-top: 30px;
+}

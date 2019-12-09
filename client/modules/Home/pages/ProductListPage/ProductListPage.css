@@ -1,0 +1,232 @@
+.container-head {
+  background-image: url(../../../../asset/bg.jpg),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  max-height: 356px;
+  height: 50vw;
+}
+.modal-container{
+  max-width: 460px;
+  margin: 16px;
+  width: 90%;
+  background: #ffffff;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 30vh;
+  left: 45%;
+  transform: translate(-50%, 0) !important;
+}
+.modal-container p{
+  text-align: center;
+}
+.modal-container p:nth-child(2) {
+  font-size: 20px;
+  margin-top: -3px;
+  margin-left: 25px;
+}
+.modal-container p:nth-child(3) {
+  margin-top: 50px;
+  color: #f00;
+}
+.btn-close{
+  cursor: pointer;
+  float: right;
+  margin-top: -10px;
+}
+.container-body {
+  min-height: calc(100vh - 467px);
+  max-width: 1144px;
+  margin: -50px auto 0px auto;
+  padding: 0px 24px;
+  width: 100%;
+}
+
+.logo {
+  /* background-image: url(../../../../asset/logo_bakery.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.container-body > .header {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 44px;
+}
+
+.container-body > .header > .info {
+  flex-grow: 1;
+  padding-left: 32px;
+}
+
+.container-body > .header > .info > .title {
+  font-size: 28px;
+  margin: 8px 0px;
+  line-height: 24px;
+  color: black;
+}
+
+.container-body > .header > .info > .title > button.moreinfo {
+  background-color: transparent !important;
+  border: none;
+  opacity: 0.5;
+  margin: 6px;
+}
+
+.container-body > .header > .info > .title > button.moreinfo:hover {
+  opacity: 0.8;
+}
+
+.container-body > .header > .info > .state {
+  color: black;
+  margin: 8px 0px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+.container-body > .header > .info > .state > div {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.container-body > .category-menu {
+  padding-right: 360px;
+  background-color: white;
+  position: sticky;
+  z-index: 1;
+  top: 97px;
+}
+
+.container-body > .category-menu::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100vw;
+  margin-left: calc((100% - 100vw) / 2);
+  content: '';
+  background: rgba(0, 0, 0, 0.05);
+  height: 1px;
+}
+
+.container-body > .content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-body > .content .products {
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.container-body > .content .order {
+  position: sticky;
+  top: 100px;
+  z-index: 5;
+  margin-top: -234px;
+}
+
+@media (max-width: 1104px) {
+  .container-body > .header > .info > .title {
+    font-size: 26px;
+  }
+
+  .container-body > .content .order {
+    margin-top: 0px;
+  }
+
+  .container-body > .header {
+    margin-bottom: 24px;
+  }
+
+  .container-body > .category-menu {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container-body > .header > .info > .title {
+    font-size: 24px;
+  }
+
+  .container-body > .header {
+    margin-bottom: 16px;
+  }
+
+  .container-body > .header > .info > .title {
+    font-size: 22px;
+  }
+
+  .container-body > .header > .info > .state {
+    font-size: 12px;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+    min-width: 120px;
+  }
+
+  .container-body {
+    margin-top: -40px;
+  }
+
+  .container-body > .content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .container-body > .content .products {
+    padding: 0px;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-body > .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container-body > .header > .info {
+    padding: 0px !important;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+    min-width: 90px;
+  }
+}
+
+@media (max-width: 486px) {
+
+  .container-body > .header {
+    padding: 0px 16px;
+  }
+
+  .container-body > .content {
+    padding: 0px 16px;
+  }
+
+  .container-body > .header > .info > .title {
+    font-size: 18px;
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+    min-width: 90px;
+  }
+}

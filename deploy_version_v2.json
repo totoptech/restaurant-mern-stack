@@ -1,0 +1,1 @@
+{"id":"CCFLHV6R","name":"deploy_version_v2","client_id":"5ZkPKKMr59xRB15FDS88_wONDDzg","client_secret":"ad46af106b686fdcd9497c1182a9505d7eea5f0f7521d0d54f20b2bfa36f9dfa","application_type":"web","redirect_uris":["http://165.22.195.119/redirect"],"cors_uris":["http://165.22.195.119:8000"]}

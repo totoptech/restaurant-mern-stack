@@ -1,0 +1,95 @@
+.O-container {
+  width: 100%;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 24px 34px 24px 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.flex-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.title > .header {
+  font-size: 18px;
+}
+
+.title > .subheader {
+  opacity: 0.6;
+  font-weight: 400;
+}
+
+.status {
+  text-align: center;
+}
+
+.status > .timestamp {
+  opacity: 0.6;
+}
+
+.status > .state {
+  margin-top: 12px;
+}
+
+.status > .state.Completed {
+  color: rgb(10, 207, 131);
+}
+
+.status > .state.Active {
+  color: rgb(26, 188, 254);
+}
+
+.footer {
+  margin-top: 18px;
+}
+
+.footer > .total {
+  margin-top: 6px;
+}
+
+.footer > .actions {
+  margin-top: 6px;
+}
+
+.footer > .actions > .action {
+  color: #00a697;
+  background-color: transparent;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .O-container {
+    font-size: 14px;
+  }
+  .title > .header {
+    font-size: 16px;
+  }
+  .flex-view:not(.footer) {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 386px) {
+  .O-container {
+    font-size: 12px;
+  }
+  .title > .header {
+    font-size: 14px;
+  }
+  .flex-view.footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

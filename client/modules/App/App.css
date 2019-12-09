@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container .container-body {
+  min-height: calc(100vh - 270px);
+  position: relative;
+  margin-top: -80px;
+}
+
+.container.loading {
+  position: relative;
+}
+
+.container.loading::after {
+  content: "";
+  z-index: 3000;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

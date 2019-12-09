@@ -1,0 +1,8 @@
+.map-container>div{
+    height: 500px;
+}
+@media (max-width: 670px){
+    .map-container>div{
+        height: 300px;
+    }
+}

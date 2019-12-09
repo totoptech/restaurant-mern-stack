@@ -1,0 +1,57 @@
+.avatar > p {
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  color: #00a697;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.avatar {
+  margin-right: 30px;
+  margin-bottom: 40px;
+  color: #202124;
+}
+
+.nameinput {
+  flex-grow: 1;
+  margin: 18px 0px;
+}
+.button-group{
+  margin-left: auto;
+}
+.body-container{
+
+  min-width: 350px;
+  max-width: 500px;
+  margin: 16px;
+  background: #ffffff;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  position: absolute;
+  top: 125px;
+  left: 46%;
+  transform: translate(-50%, 0) !important;
+  text-align: center;
+}
+.err-pswMsg{
+  color: #f00;
+  float: left;
+
+}
+.btn-close{
+  cursor: pointer;
+  float: right;
+  margin-top: -3px;
+}
+.mTitle{
+  font-size: 20px;
+
+}
+.form-container{
+  padding: 40px;
+}
+.button-group{
+  float: right;
+}

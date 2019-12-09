@@ -1,0 +1,19 @@
+.settings-desc{
+    opacity: 0.6;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+.settings-name{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.settings-form{
+    margin-bottom: 40px;
+}
+.react-switch svg{
+    display: none;
+}
+.react-switch{
+    margin-left: auto;
+}

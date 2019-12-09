@@ -1,0 +1,58 @@
+
+@media screen and (max-width: 500px) {
+    .O-container{
+        height: 100%!important;
+    }
+}
+.O-container{
+    width: 100%;
+    height: 144px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 24px 34px 24px 24px;
+    
+}
+.order-name1{
+    font-weight: 500;
+    font-size: 18px;
+}
+.order-date{
+    margin-left: auto;
+    opacity: 0.6;
+    font-size: 16px;
+}
+.order-name2{
+    opacity: 0.6;
+    font-size: 16px;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+.order-price{
+    font-weight: 500;
+    margin-right: 3px;
+}
+
+.order-action{
+    float: right;
+    display: flex;
+}
+
+.order-split{
+    margin-left: 8px;
+    margin-right: 8px;
+    opacity: 0.3;
+}
+.order-recepit{
+    color: #00A697;
+    font-weight: 500;
+    cursor: pointer;
+    float: right;
+}
+.order-reorder{
+    color: #00A697;
+    font-weight: 500;
+    cursor: pointer;
+}

@@ -1,0 +1,209 @@
+.header-container {
+  background-color: transparent !important;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+  transition: all 0.5s;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.modal-container{
+  max-width: 460px;
+  margin: 16px;
+  width: 90%;
+  background: #ffffff;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  position: absolute;
+  top: 30vh;
+  left: 45%;
+  transform: translate(-50%, 0) !important;
+}
+.modal-container div:first-child{
+  float: right;
+}
+.modal-container p:nth-child(2){
+  text-align: center;
+  margin-top: 5px;
+  font-size: 24px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+.modal-container p:nth-child(3){
+  font-size: 18px;
+  text-align: center;
+}
+.btn-group{
+  margin-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.btn-yes{
+  font-size: 16px!important;
+  padding: 12px 24px!important;
+  width: 110px!important;
+
+}
+.btn-close{
+  cursor: pointer;
+}
+.btn-no{
+  float: right!important;
+  font-size: 16px!important;
+  padding: 12px 24px!important;
+  width: 110px!important;
+}
+.header-container.effect {
+  background-color: white !important;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  margin: 0 auto;
+  width: 100%;
+  padding: 22px !important;
+  max-width: 1120px;
+  flex-wrap: wrap-reverse;
+}
+
+.header > ul > li > a {
+  padding: 0px !important;
+}
+
+.header .menu {
+  flex-direction: row !important;
+  align-items: center;
+}
+
+.header .menutitle {
+  color: white;
+  margin-left: 10px;
+  transition: color 0.5s;
+  display: flex;
+  align-items: center;
+}
+
+.header-container.effect {
+  font-size: 20px;
+}
+
+.header-container.effect .menutitle {
+  color: black;
+  margin-left: 10px;
+}
+
+.header-container.effect .menutitle svg {
+  color: #20b1a4;
+}
+
+.header .account {
+  color: white;
+  transition: color 0.5s;
+  display: flex;
+}
+
+.header-container.effect .account {
+  color: #202124;
+  transition: color 0.5s;
+}
+
+.header-container .right-menu {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.header-container .right-menu>div{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.header-container .right-menu > .menu-item {
+  color: white;
+  margin: 0px 16px;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.header-container .right-menu > div> .menu-item {
+  color: white;
+  margin: 0px 16px;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.username{
+  padding-top: 4px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-bottom: 0px!important;
+}
+.header-container.effect .right-menu > .menu-item {
+  color: #202124;
+  transition: color 0.5s;
+}
+.header-container.effect .right-menu > div> .menu-item {
+  color: #202124;
+  transition: color 0.5s;
+}
+
+.loginMenu {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+.loginMenu::after {
+  display: none !important;
+}
+
+.logo {
+  /* background-image: url(../../../../asset/logo_bakery.png); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .header-container > .header {
+    font-size: 14px;
+  }
+  .header-container.effect > .header {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container > .header {
+    font-size: 12px;
+  }
+  .header-container.effect > .header {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .menutitle span {
+    max-width: 120px;
+  }
+  .btn-yes{
+    margin: auto !important;
+    display: block !important;
+  }
+  .btn-no{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 20px !important;
+    float: none !important;
+  }
+}

@@ -61,7 +61,7 @@
     "reactstrap": "^8.0.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "sanitize-html": "^1.20.1",
+    "sanitize-html": "^2.3.2",
     "stripe": "^7.5.4"
   },
   "devDependencies": {
